@@ -1,0 +1,7 @@
+.paragraph {
+  text-align: justify;
+  hyphens: auto;
+  line-height: 1.5;
+
+  margin-bottom: var(--spacing-xs);
+}

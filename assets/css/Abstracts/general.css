@@ -1,0 +1,6 @@
+body {
+  background-color: var(--color-light);
+  font: 18px 'Gilroy', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

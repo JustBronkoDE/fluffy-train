@@ -1,0 +1,23 @@
+.button {
+  border: none;
+  color: var(--color-dark);
+  background-color: var(--color-primary);
+  padding: var(--spacing-s) var(--spacing-m);
+  display: flex;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: all 200ms ease;
+  width: 100%;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: var(--spacing-m);
+}
+
+.button:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-light);
+}
+
+.button:active {
+  transform: scale(0.975);
+}
