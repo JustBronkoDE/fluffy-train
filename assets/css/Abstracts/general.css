@@ -1,5 +1,6 @@
 body {
   background-color: var(--color-light);
+  color: var(--color-dark);
   font: 18px 'Gilroy', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

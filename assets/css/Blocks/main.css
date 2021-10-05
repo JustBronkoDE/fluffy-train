@@ -1,9 +1,9 @@
 .main {
-  max-width: 1920px;
-  margin: 0 auto;
-  color: var(--color-dark);
+  width: 100%;
 }
 
 .main__inner {
+  max-width: 80%;
+  margin: 0 auto;
   padding: var(--spacing-m);
 }

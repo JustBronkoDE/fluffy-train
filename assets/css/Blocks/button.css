@@ -1,13 +1,12 @@
 .button {
+  user-select: none;
+  display: inline-flex;
   border: none;
   color: var(--color-dark);
   background-color: var(--color-primary);
   padding: var(--spacing-s) var(--spacing-m);
-  display: flex;
-  margin: 0 auto;
   cursor: pointer;
-  transition: all 200ms ease;
-  width: 100%;
+  transition: all 150ms ease;
   justify-content: center;
   font-weight: bold;
   border-radius: var(--spacing-m);
@@ -20,4 +19,8 @@
 
 .button:active {
   transform: scale(0.975);
+}
+
+.button--full-width {
+  width: 100%;
 }

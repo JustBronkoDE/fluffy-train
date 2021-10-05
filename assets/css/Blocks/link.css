@@ -1,0 +1,52 @@
+.link {
+  display: inline-flex;
+  color: var(--color-primary);
+  text-decoration: none;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  transition: transform 150ms ease;
+}
+
+.link:active {
+  transform: scale(0.975);
+}
+
+.link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-primary);
+  transform: scaleX(0);
+  transition: transform 300ms ease;
+}
+
+.link:hover::after {
+  transform: scaleX(1);
+}
+
+.link--active {
+  pointer-events: none;
+}
+
+.link--active::after {
+  transform: scaleX(1);
+}
+
+.link--light {
+  color: var(--color-light);
+}
+
+.link--light::after {
+  background-color: var(--color-light);
+}
+
+.link--bold {
+  font-weight: bold;
+}
+
