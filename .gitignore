@@ -1,0 +1,23 @@
+.DS_Store
+node_modules
+/dist
+docker-compose.override.yml
+.npmrc
+
+# local env files
+.env
+.env.local
+.env.*.local
+
+# editor directories and files
+.idea
+.vscode
+.prettierrc
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+jsconfig.json
+
+.i18n-editor-metadata
